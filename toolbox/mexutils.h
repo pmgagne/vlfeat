@@ -42,6 +42,14 @@ typedef int mwIndex ;
 #undef OUT
 #define OUT(x) (out[OUT_ ## x])
 
+#ifndef EXTERN_C
+#if defined(__cplusplus)
+    #define EXTERN_C extern "C"
+#else
+    #define EXTERN_C extern
+#endif
+#endif
+
 #ifdef HAVE_OCTAVE
 static void *
 mxReallocOctaveWorkaround(void * ptr, size_t size)
