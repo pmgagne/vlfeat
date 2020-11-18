@@ -24,7 +24,7 @@ PDFLATEX   ?= pdflatex
 FIG2DEV    ?= fig2dev
 CONVERT    ?= convert
 
-PYTHON     ?= python
+PYTHON     ?= python2
 GROFF      ?= groff
 TIDY       ?= tidy
 
