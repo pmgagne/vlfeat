@@ -1,0 +1,154 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="4012960396" file="/Users/philippegagne/Documents/MATLAB/vlfeat/vlfeat.prj" location="/Users/philippegagne/Documents/MATLAB/vlfeat" name="vlfeat" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>vlfeat</param.appname>
+    <param.authnamewatermark>Andrea Vedaldi</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary>Repackaged by pgagne, https://github.com/pmgagne/vlfeat</param.summary>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}/vl_blue_large.png</param.screenshot>
+    <param.version>0.9.2.1</param.version>
+    <param.output>${PROJECT_ROOT}/vlfeat.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>f2e63512-01f2-4d60-bfad-f786b0af8331</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+**/.DS_Store</param.exclude.filters>
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs>${PROJECT_ROOT}/toolbox/info.xml</param.docs>
+    <param.getting.started.guide />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>false</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start>R2014b</param.release.start>
+    <param.release.end>latest</param.release.end>
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>false</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>false</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.email />
+      <param.company />
+      <param.description />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.pcodedmfiles />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.getting.started.guide />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.exported.on.package />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}/toolbox</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}/toolbox/aib</file>
+      <file>${PROJECT_ROOT}/toolbox/demo</file>
+      <file>${PROJECT_ROOT}/toolbox/doc</file>
+      <file>${PROJECT_ROOT}/toolbox/fisher</file>
+      <file>${PROJECT_ROOT}/toolbox/geometry</file>
+      <file>${PROJECT_ROOT}/toolbox/gmm</file>
+      <file>${PROJECT_ROOT}/toolbox/imop</file>
+      <file>${PROJECT_ROOT}/toolbox/info.xml</file>
+      <file>${PROJECT_ROOT}/toolbox/kmeans</file>
+      <file>${PROJECT_ROOT}/toolbox/mex</file>
+      <file>${PROJECT_ROOT}/toolbox/mexutils.h</file>
+      <file>${PROJECT_ROOT}/toolbox/misc</file>
+      <file>${PROJECT_ROOT}/toolbox/mser</file>
+      <file>${PROJECT_ROOT}/toolbox/noprefix</file>
+      <file>${PROJECT_ROOT}/toolbox/plotop</file>
+      <file>${PROJECT_ROOT}/toolbox/quickshift</file>
+      <file>${PROJECT_ROOT}/toolbox/sift</file>
+      <file>${PROJECT_ROOT}/toolbox/slic</file>
+      <file>${PROJECT_ROOT}/toolbox/special</file>
+      <file>${PROJECT_ROOT}/toolbox/vl_compile.m</file>
+      <file>${PROJECT_ROOT}/toolbox/vl_demo.m</file>
+      <file>${PROJECT_ROOT}/toolbox/vl_harris.m</file>
+      <file>${PROJECT_ROOT}/toolbox/vl_help.m</file>
+      <file>${PROJECT_ROOT}/toolbox/vl_noprefix.m</file>
+      <file>${PROJECT_ROOT}/toolbox/vl_root.m</file>
+      <file>${PROJECT_ROOT}/toolbox/vl_setup.m</file>
+      <file>${PROJECT_ROOT}/toolbox/vlad</file>
+      <file>${PROJECT_ROOT}/toolbox/xtest</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="vlfeat.mltbx" optional="false">/Users/philippegagne/Documents/MATLAB/vlfeat/vlfeat.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2019b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.15.7</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
