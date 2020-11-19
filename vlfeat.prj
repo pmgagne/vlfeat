@@ -33,296 +33,298 @@
 % All files matching a pattern in all subfolders of the toolbox folder:
 % **/*.bak
 %
-**/.DS_Store</param.exclude.filters>
+**/.DS_Store
+**/.*
+**/*.d</param.exclude.filters>
     <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
     <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;examples&gt;
    &lt;exampleCategory name="demo"&gt;
       &lt;example name="vl_demo_aib" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_aib.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_aib.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_aib.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_aib_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_aib_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_aib_03.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_aib_04.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_aib_05.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_aib_06.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_aib.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_aib.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_aib.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_aib_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_aib_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_aib_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_aib_04.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_aib_05.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_aib_06.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_alldist" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_alldist.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_alldist.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_alldist.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_alldist_01.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_alldist.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_alldist.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_alldist.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_alldist_01.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_cmd" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_cmd.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_cmd.m&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_cmd.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_cmd.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_covdet" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_covdet.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_covdet.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_covdet.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_covdet_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_covdet_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_covdet_03.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_covdet_04.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_covdet_05.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_covdet_06.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_covdet_07.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_covdet_08.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_covdet_09.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_covdet_10.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_covdet.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_covdet.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_covdet.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_covdet_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_covdet_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_covdet_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_covdet_04.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_covdet_05.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_covdet_06.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_covdet_07.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_covdet_08.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_covdet_09.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_covdet_10.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_dsift" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_dsift.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_dsift.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_dsift.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_dsift_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_dsift_02.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_dsift.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_dsift.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_dsift.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_dsift_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_dsift_02.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_frame" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_frame.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_frame.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_frame.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_frame_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_frame_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_frame_03.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_frame_04.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_frame.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_frame.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_frame.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_frame_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_frame_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_frame_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_frame_04.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_gmm_2d_rand" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_gmm_2d_rand.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_gmm_2d_rand.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_gmm_2d_rand.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_gmm_2d_rand_01.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_gmm_2d_rand.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_gmm_2d_rand.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_gmm_2d_rand.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_gmm_2d_rand_01.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_gmm_2d_twist" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_gmm_2d_twist.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_gmm_2d_twist.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_gmm_2d_twist.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_gmm_2d_twist_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_gmm_2d_twist_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_gmm_2d_twist_03.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_gmm_2d_twist.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_gmm_2d_twist.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_gmm_2d_twist.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_gmm_2d_twist_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_gmm_2d_twist_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_gmm_2d_twist_03.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_gmm_3d" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_gmm_3d.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_gmm_3d.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_gmm_3d.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_gmm_3d_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_gmm_3d_02.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_gmm_3d.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_gmm_3d.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_gmm_3d.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_gmm_3d_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_gmm_3d_02.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_gmm_convergence" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_gmm_convergence.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_gmm_convergence.m&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_gmm_convergence.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_gmm_convergence.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_hog" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_hog.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_hog.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_hog.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_hog_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_hog_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_hog_03.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_hog_04.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_hog_05.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_hog_06.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_hog.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_hog.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_hog.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_hog_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_hog_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_hog_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_hog_04.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_hog_05.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_hog_06.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_ikmeans" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_ikmeans.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_ikmeans.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_ikmeans.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_ikmeans_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_ikmeans_02.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_ikmeans.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_ikmeans.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_ikmeans.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_ikmeans_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_ikmeans_02.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_imdisttf" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_imdisttf.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_imdisttf.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_imdisttf.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_imdisttf_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_imdisttf_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_imdisttf_03.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_imdisttf_04.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_imdisttf.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_imdisttf.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_imdisttf.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_imdisttf_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_imdisttf_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_imdisttf_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_imdisttf_04.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_kdtree" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_kdtree.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_kdtree.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_kdtree.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_03.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_04.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_ann_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_ann_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_ann_03.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_ann_04.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_forest_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_forest_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_forest_03.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_forest_04.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_forest_05.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_self_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_sift_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_sift_02.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_kdtree.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_kdtree.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_kdtree.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_04.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_ann_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_ann_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_ann_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_ann_04.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_forest_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_forest_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_forest_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_forest_04.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_forest_05.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_self_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_sift_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_sift_02.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_kdtree_ann" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_kdtree_ann.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_kdtree_ann.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_kdtree_ann.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_ann_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_ann_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_ann_03.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_ann_04.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_kdtree_ann.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_kdtree_ann.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_kdtree_ann.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_ann_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_ann_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_ann_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_ann_04.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_kdtree_forest" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_kdtree_forest.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_kdtree_forest.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_kdtree_forest.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_forest_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_forest_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_forest_03.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_forest_04.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_forest_05.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_kdtree_forest.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_kdtree_forest.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_kdtree_forest.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_forest_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_forest_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_forest_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_forest_04.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_forest_05.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_kdtree_plot" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_kdtree_plot.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_kdtree_plot.m&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_kdtree_plot.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_kdtree_plot.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_kdtree_self" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_kdtree_self.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_kdtree_self.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_kdtree_self.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_self_01.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_kdtree_self.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_kdtree_self.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_kdtree_self.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_self_01.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_kdtree_sift" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_kdtree_sift.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_kdtree_sift.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_kdtree_sift.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_sift_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kdtree_sift_02.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_kdtree_sift.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_kdtree_sift.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_kdtree_sift.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_sift_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kdtree_sift_02.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_kmeans_2d" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_kmeans_2d.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_kmeans_2d.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_kmeans_2d.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kmeans_2d_01.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_kmeans_2d.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_kmeans_2d.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_kmeans_2d.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kmeans_2d_01.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_kmeans_ann_speed" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_kmeans_ann_speed.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_kmeans_ann_speed.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_kmeans_ann_speed.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kmeans_ann_speed_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kmeans_ann_speed_02.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_kmeans_ann_speed.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_kmeans_ann_speed.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_kmeans_ann_speed.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kmeans_ann_speed_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kmeans_ann_speed_02.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_kmeans_init" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_kmeans_init.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_kmeans_init.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_kmeans_init.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kmeans_init_01.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_kmeans_init.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_kmeans_init.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_kmeans_init.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kmeans_init_01.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_kmeans_vs_builtin" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_kmeans_vs_builtin.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_kmeans_vs_builtin.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_kmeans_vs_builtin.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_kmeans_vs_builtin_01.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_kmeans_vs_builtin.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_kmeans_vs_builtin.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_kmeans_vs_builtin.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_kmeans_vs_builtin_01.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_mser_basic" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_mser_basic.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_mser_basic.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_mser_basic.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_mser_basic_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_mser_basic_02.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_mser_basic.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_mser_basic.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_mser_basic.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_mser_basic_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_mser_basic_02.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_mser_cmd" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_mser_cmd.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_mser_cmd.m&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_mser_cmd.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_mser_cmd.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_mser_delta" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_mser_delta.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_mser_delta.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_mser_delta.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_mser_delta_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_mser_delta_02.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_mser_delta.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_mser_delta.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_mser_delta.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_mser_delta_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_mser_delta_02.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_plots_rank" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_plots_rank.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_plots_rank.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_plots_rank.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_plots_rank_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_plots_rank_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_plots_rank_03.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_plots_rank_04.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_plots_rank.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_plots_rank.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_plots_rank.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_plots_rank_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_plots_rank_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_plots_rank_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_plots_rank_04.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_print" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_print.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_print.m&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_print.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_print.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_quickshift" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_quickshift.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_quickshift.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_quickshift.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_quickshift_01.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_quickshift.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_quickshift.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_quickshift.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_quickshift_01.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_sift_basic" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_sift_basic.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_sift_basic.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_sift_basic.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_sift_basic_01.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_sift_basic.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_sift_basic.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_sift_basic.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_sift_basic_01.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_sift_cmd" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_sift_cmd.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_sift_cmd.m&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_sift_cmd.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_sift_cmd.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_sift_edge" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_sift_edge.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_sift_edge.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_sift_edge.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_sift_edge_01.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_sift_edge.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_sift_edge.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_sift_edge.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_sift_edge_01.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_sift_match" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_sift_match.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_sift_match.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_sift_match.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_sift_match_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_sift_match_02.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_sift_match.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_sift_match.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_sift_match.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_sift_match_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_sift_match_02.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_sift_or" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_sift_or.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_sift_or.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_sift_or.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_sift_or_01.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_sift_or.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_sift_or.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_sift_or.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_sift_or_01.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_sift_peak" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_sift_peak.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_sift_peak.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_sift_peak.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_sift_peak_01.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_sift_peak.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_sift_peak.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_sift_peak.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_sift_peak_01.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_sift_vs_ubc" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_sift_vs_ubc.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_sift_vs_ubc.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_sift_vs_ubc.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_sift_vs_ubc_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_sift_vs_ubc_02.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_sift_vs_ubc_03.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_sift_vs_ubc.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_sift_vs_ubc.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_sift_vs_ubc.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_sift_vs_ubc_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_sift_vs_ubc_02.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_sift_vs_ubc_03.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_slic" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_slic.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_slic.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_slic.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_slic_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_slic_02.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_slic.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_slic.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_slic.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_slic_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_slic_02.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="vl_demo_svm" type="html"&gt;
-         &lt;file type="source"&gt;/demo/html/vl_demo_svm.html&lt;/file&gt;
-         &lt;file type="main"&gt;/demo/vl_demo_svm.m&lt;/file&gt;
-         &lt;file type="thumbnail"&gt;/demo/html/vl_demo_svm.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_svm_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/demo/html/vl_demo_svm_02.png&lt;/file&gt;
+         &lt;file type="source"&gt;/toolbox/demo/html/vl_demo_svm.html&lt;/file&gt;
+         &lt;file type="main"&gt;/toolbox/demo/vl_demo_svm.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/toolbox/demo/html/vl_demo_svm.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_svm_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/toolbox/demo/html/vl_demo_svm_02.png&lt;/file&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
 &lt;/examples&gt;</param.examples>
@@ -331,7 +333,9 @@
     <param.registered.apps />
     <param.docs>${PROJECT_ROOT}/toolbox/info.xml</param.docs>
     <param.getting.started.guide />
-    <param.matlabpath.excludes />
+    <param.matlabpath.excludes>
+      <item>/</item>
+    </param.matlabpath.excludes>
     <param.javaclasspath.excludes />
     <param.exported.on.package>false</param.exported.on.package>
     <param.required.addons />
@@ -364,7 +368,6 @@
       <param.apps />
       <param.registered.apps />
       <param.getting.started.guide />
-      <param.matlabpath.excludes />
       <param.javaclasspath.excludes />
       <param.exported.on.package />
       <param.required.addons />
@@ -381,37 +384,30 @@
       <param.additional.sw.linux.url />
     </unset>
     <fileset.rootdir>
-      <file>${PROJECT_ROOT}/toolbox</file>
+      <file>${PROJECT_ROOT}</file>
     </fileset.rootdir>
     <fileset.rootfiles>
-      <file>${PROJECT_ROOT}/toolbox/aib</file>
-      <file>${PROJECT_ROOT}/toolbox/demo</file>
-      <file>${PROJECT_ROOT}/toolbox/demos.xml</file>
-      <file>${PROJECT_ROOT}/toolbox/fisher</file>
-      <file>${PROJECT_ROOT}/toolbox/geometry</file>
-      <file>${PROJECT_ROOT}/toolbox/gmm</file>
-      <file>${PROJECT_ROOT}/toolbox/imop</file>
-      <file>${PROJECT_ROOT}/toolbox/info.xml</file>
-      <file>${PROJECT_ROOT}/toolbox/kmeans</file>
-      <file>${PROJECT_ROOT}/toolbox/mex</file>
-      <file>${PROJECT_ROOT}/toolbox/mexutils.h</file>
-      <file>${PROJECT_ROOT}/toolbox/misc</file>
-      <file>${PROJECT_ROOT}/toolbox/mser</file>
-      <file>${PROJECT_ROOT}/toolbox/noprefix</file>
-      <file>${PROJECT_ROOT}/toolbox/plotop</file>
-      <file>${PROJECT_ROOT}/toolbox/quickshift</file>
-      <file>${PROJECT_ROOT}/toolbox/sift</file>
-      <file>${PROJECT_ROOT}/toolbox/slic</file>
-      <file>${PROJECT_ROOT}/toolbox/special</file>
-      <file>${PROJECT_ROOT}/toolbox/vl_compile.m</file>
-      <file>${PROJECT_ROOT}/toolbox/vl_demo.m</file>
-      <file>${PROJECT_ROOT}/toolbox/vl_harris.m</file>
-      <file>${PROJECT_ROOT}/toolbox/vl_help.m</file>
-      <file>${PROJECT_ROOT}/toolbox/vl_noprefix.m</file>
-      <file>${PROJECT_ROOT}/toolbox/vl_root.m</file>
-      <file>${PROJECT_ROOT}/toolbox/vl_setup.m</file>
-      <file>${PROJECT_ROOT}/toolbox/vlad</file>
-      <file>${PROJECT_ROOT}/toolbox/xtest</file>
+      <file>${PROJECT_ROOT}/COPYING</file>
+      <file>${PROJECT_ROOT}/Makefile</file>
+      <file>${PROJECT_ROOT}/Makefile.mak</file>
+      <file>${PROJECT_ROOT}/README.md</file>
+      <file>${PROJECT_ROOT}/VERSION</file>
+      <file>${PROJECT_ROOT}/apps</file>
+      <file>${PROJECT_ROOT}/bin</file>
+      <file>${PROJECT_ROOT}/build</file>
+      <file>${PROJECT_ROOT}/data</file>
+      <file>${PROJECT_ROOT}/demos.xml</file>
+      <file>${PROJECT_ROOT}/doc</file>
+      <file>${PROJECT_ROOT}/docsrc</file>
+      <file>${PROJECT_ROOT}/make</file>
+      <file>${PROJECT_ROOT}/results</file>
+      <file>${PROJECT_ROOT}/src</file>
+      <file>${PROJECT_ROOT}/toolbox</file>
+      <file>${PROJECT_ROOT}/vl</file>
+      <file>${PROJECT_ROOT}/vl_blue_large.png</file>
+      <file>${PROJECT_ROOT}/vlfeat.sln</file>
+      <file>${PROJECT_ROOT}/vlfeat.vcproj</file>
+      <file>${PROJECT_ROOT}/vlfeat.xcodeproj</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
     <fileset.depfun.excluded />
