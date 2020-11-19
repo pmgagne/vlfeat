@@ -77,16 +77,17 @@ doc-deep: $(doc-dir) $(results-dir) all
 m_doc_lnk := toolbox/doc
 
 toolbox/doc/matlab/helptoc.xml : doc/build/matlab/helptoc.xml doc/index.html
-	ln -sf ../doc toolbox/doc
+#	ln -sf ../doc toolbox/doc
+	cp -R doc toolbox/doc
 	cp -v "$<" "$@"
-
+	
 toolbox/doc/matlab/helpsearch-v3/segments.gen : toolbox/doc/matlab/helptoc.xml
 	$(MATLAB_EXE) -$(ARCH) -nodisplay -nosplash -r \
-	"addpath('toolbox');builddocsearchdb('toolbox/doc/matlab/');exit"
+	"ver; addpath(fullfile(pwd, 'toolbox')); ; rmpath(fullfile(pwd, 'toolbox')); ; addpath(fullfile(pwd, 'toolbox')); builddocsearchdb(fullfile(pwd, 'toolbox/doc/matlab/')); exit"
 
-toolbox/doc/matlab/helpsearch-v2/segments.gen : toolbox/doc/matlab/helptoc.xml
-	$(MATLAB_EXE) -$(ARCH) -nodisplay -nosplash -r \
-	"addpath('toolbox');builddocsearchdb('toolbox/doc/matlab/');exit"
+#toolbox/doc/matlab/helpsearch-v2/segments.gen : toolbox/doc/matlab/helptoc.xml
+#	$(MATLAB_EXE) -$(ARCH) -nodisplay -nosplash -r \
+#	"addpath('toolbox');builddocsearchdb('toolbox/doc/matlab/');exit"
 
 # --------------------------------------------------------------------
 #                                                                 MDoc

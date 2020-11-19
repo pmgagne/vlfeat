@@ -7,7 +7,7 @@
     <param.summary>Repackaged by pgagne, https://github.com/pmgagne/vlfeat</param.summary>
     <param.description />
     <param.screenshot>${PROJECT_ROOT}/vl_blue_large.png</param.screenshot>
-    <param.version>0.9.2.1</param.version>
+    <param.version>1.1.0.1</param.version>
     <param.output>${PROJECT_ROOT}/vlfeat.mltbx</param.output>
     <param.products.name />
     <param.products.id />
