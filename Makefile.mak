@@ -454,7 +454,7 @@ $(objdir)\imopv_sse2.obj : vl\imopv_sse2.c
 # Link VLFeat DLL
 $(bindir)\vl.dll : $(libobj)
 	@echo .. LINK [DLL] $(@R).dll
-	$(LINK) /DLL  $(LFLAGS) $(**) /OUT:"$(@)"
+	link /DLL  $(LFLAGS) $(**) /OUT:"$(@)"
 	@mt /nologo /outputresource:"$(@);#2" /manifest "$(@R).dll.manifest"
 	@-del "$(@R).dll.manifest"
 
